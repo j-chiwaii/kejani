@@ -9,6 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&family=Rosarivo:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/main.css" />
     <title>keja</title>
   </head>
@@ -55,8 +61,56 @@
         </nav>
       </header>
       <div class="content">
-        <nav class="sidebar">Navigation</nav>
-        <main class="hotel-view">Hotel</main>
+        <nav class="sidebar">
+          <ul class="side-nav">
+            <li class="side-nav__item side-nav__item--active">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-home"></use>
+                </svg>
+                <span>Hotel</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-aircraft-take-off"></use>
+                </svg>
+                <span>Flight</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-key"></use>
+                </svg>
+                <span>Car Rental</span>
+              </a>
+            </li>
+            <li class="side-nav__item">
+              <a href="#" class="side-nav__link">
+                <svg class="side-nav__icon">
+                  <use xlink:href="img/sprite.svg#icon-map"></use>
+                </svg>
+                <span>Tours</span>
+              </a>
+            </li>
+          </ul>
+          <div class="copyright">Footer</div>
+        </nav>
+        <main class="hotel-view">
+          <div class="galley">
+            <figure class="gallery__item">
+              <img src="" alt="" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="" alt="" class="gallery__photo" />
+            </figure>
+            <figure class="gallery__item">
+              <img src="" alt="" class="gallery__photo" />
+            </figure>
+          </div>
+        </main>
       </div>
     </div>
   </body>
