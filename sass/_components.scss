@@ -182,7 +182,9 @@
 
   &__photo {
     width: 100%;
+    height: 100%;
     display: block;
+    object-fit: fill;
   }
 }
 
@@ -212,12 +214,33 @@
   }
 
   &__location {
+    display: flex;
+    font-size: 1.2rem;
+    vertical-align: center;
   }
+
   &__rating {
+    background-color: var(--color-primary);
+    color: white;
+    align-self: stretch;
+    margin-left: 3rem;
+    padding: 0 2.25rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
   }
+
   &__rating-count {
+    font-size: 0.8rem;
+    text-transform: uppercase;
   }
+
   &__rating-average {
+    padding: 2px 0;
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: -3px;
   }
 }
 
